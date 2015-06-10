@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!-- Bear Modal -->
+		<div class="modal fade" id="bearModal" tabindex="-1" role="dialog" aria-labelledby="bearModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="bearModalLabel">Bear Modal</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive-mine" src="http://placebear.com/264/150" alt="bear">
+						This should be an image of a bear for the bear modal.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Kitten Modal -->
+		<div class="modal fade" id="kittenModal" tabindex="-1" role="dialog" aria-labelledby="kittenModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="kittenModalLabel">Kitten Modal</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive-mine" src="http://placekitten.com/264/150" alt="kitten">
+						This should be an image of a kitten for the kitten modal.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Cage Modal -->
+		<div class="modal fade" id="cageModal" tabindex="-1" role="dialog" aria-labelledby="cageModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+			  		<div class="modal-header">
+						<h4 class="modal-title" id="cageModalLabel">John Cage Modal</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive-mine" src="http://www.placecage.com/c/264/150" alt="cage">
+						This should be an image of John Cage for the Cage modal.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Container -->
+		<div class="container">
+		<!--Header -->
+			<header>
+				<div class="row">
+					<div class="col-md-6"><img class="title-logo img-responsive" src="images/udacity.png" alt="My robot		logo"></div>
+					<div class="col-md-6 text-right text-uppercase">
+						<h1 class="title-main text-thin">Jane Doette</h1>
+						<h4>Front end bungler</h4>
+					</div>
+				</div>
+			</header>
+			<!-- Nav -->
+			<nav>
+				<div class="row">
+					<div class="col-md-12">
+						<hr class="hr-mine">
+					</div>
+				</div>
+			</nav>
+			<!-- Section -->
+			<section>
+				<div class="row">
+					<div class="col-md-12">
+						<img class="img-responsive img-responsive-mine" src="images/imageMain.png" alt="Main image">
+					</div>
+				</div>
+			</section>
+			<!-- Article -->
+			<article>
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="text-light">Featured Works</h2>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-md-4"><img class="img-responsive-mine" src="http://placebear.com/264/150" alt="bear" data-toggle="modal" data-target="#bearModal">
+						<h3 class="text-uppercase">Appify</h3>
+						<a href="https://github.com/udacity/Appify/"><p>https://github.com/udacity/Appify/</p></a>
+					</div>
+					<div class="col-md-4"><img class="img-responsive-mine" src="http://placekitten.com/264/150" alt="kitten" data-toggle="modal" data-target="#kittenModal">
+						<h3 class="text-uppercase">Sunflower</h3>
+						<a href="https://github.com/udacity/Sunflower/"><p>https://github.com/udacity/Sunflower/</p></a>
+					</div>
+
+					<div class="col-md-4"><img class="img-responsive-mine" src="http://www.placecage.com/c/264/150" alt="cage" data-toggle="modal" data-target="#cageModal">
+						<h3 class="text-uppercase">Bokeh</h3>
+						<a href="https://github.com/udacity/Bokeh/"><p>https://github.com/udacity/Bokeh/</p></a>
+					</div>
+				</div>
+			</article>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+	font-family: "Lato", sans-serif;
+	color: #0c4b33;
+	font-weight: 300;
+}
+
+.img-responsive-mine {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.hr-mine {
+	background-color: #eee;
+	border: 0 none;
+	color: #747704;
+	height: 4px;
+}
+
+.text-light {
+	color: #bcbbbb;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-main {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 10px;
+}
